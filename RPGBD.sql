@@ -62,7 +62,7 @@ SELECT P.NomePersonagem, C.Nome AS 'Classe', C.Descricao FROM Personagens AS P
 INNER JOIN Classes AS C 
 ON P.ClasseId = C.ClasseId
 
---DML AO3 UC10
+--DML Atividade03UC10
 INSERT INTO Usuarios VALUES ('email3@email.com','123456')
 INSERT INTO Classes VALUES ('Paladino','Descrição do Paladino')
 INSERT INTO Habilidades VALUES ('Escudo Divino'),('Martelo Celestial')
@@ -82,7 +82,7 @@ INSERT INTO Usuarios VALUES ('email4@email.com','123456')
 
 DELETE FROM Usuarios WHERE UsuarioId = 5 
 
-
+-- Criando e permitindo jogador, Atividade04UC10
 CREATE LOGIN Jogador
 WITH PASSWORD = '123456'
 
